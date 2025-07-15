@@ -1,0 +1,12 @@
+Flask
+torch
+transformers
+openai-whisper
+nltk
+Werkzeug
+requests
+numpy
+scipy
+librosa
+soundfile
+ffmpeg-python

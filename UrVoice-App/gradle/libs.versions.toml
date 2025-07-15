@@ -1,0 +1,99 @@
+[versions]
+accompanistPager = "0.28.0"
+accompanistSystemuicontroller = "0.30.1"
+agp = "8.7.3"
+coilCompose = "3.2.0"
+composeShimmer = "1.3.2"
+converterGson = "2.9.0"
+datastoreCore = "1.1.4"
+hiltAndroid = "2.50"
+hiltNavigationCompose = "1.2.0"
+hilt = "2.50"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxSerializationJson = "1.6.3"
+library = "3.5.2"
+libraryNoOp = "3.5.2"
+lifecycleLivedataKtx = "2.9.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.0"
+composeBom = "2024.04.01"
+loggingInterceptor = "5.0.0-alpha.2"
+navigationCompose = "2.8.9"
+okhttp = "4.12.0"
+lottie = "5.2.0"
+lottieCompose = "5.2.0"
+pagingRuntimeVersion = "3.3.6"
+retrofit = "2.9.0"
+roomRuntime = "2.7.0"
+runtimeLivedata = "1.8.3"
+rxandroid = "3.0.2"
+rxjava = "3.1.6"
+ssjetpackcomposeprogressbutton = "1.1.0"
+pagerVersion = "1.7.2"
+
+[libraries]
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPager" }
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanistPager" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-core = { module = "androidx.datastore:datastore-core", version.ref = "datastoreCore" }
+androidx-datastore-preferences-core = { module = "androidx.datastore:datastore-preferences-core", version.ref = "datastoreCore" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version = "1.1.4" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "pagingRuntimeVersion" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "pagingRuntimeVersion" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-rxjava3 = { module = "androidx.room:room-rxjava3", version.ref = "roomRuntime" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "runtimeLivedata" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
+coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
+compose-shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "composeShimmer" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hiltAndroid" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+library = { module = "com.github.chuckerteam.chucker:library", version.ref = "library" }
+library-no-op = { module = "com.github.chuckerteam.chucker:library-no-op", version.ref = "libraryNoOp" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+retrofit2-adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "converterGson" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+ssjetpackcomposeprogressbutton = { module = "com.github.SimformSolutionsPvtLtd:SSJetPackComposeProgressButton", version.ref = "ssjetpackcomposeprogressbutton" }
+foundation-pager = { group = "androidx.compose.foundation", name = "foundation", version.ref = "pagerVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.21" }

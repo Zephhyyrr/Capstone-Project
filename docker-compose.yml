@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  urvoice-db:
+    image: postgres:17
+    container_name: urvoice_postgres
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-password}
+      POSTGRES_DB: ${DB_NAME:-urvoice_db}
+    volumes:
+      - urvoice_db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - urvoice-network
+    restart: unless-stopped
+
+  urvoice-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: urvoice_backend
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DB_HOST=urvoice-db
+      - DB_PORT=5432
+      - DB_USER=${DB_USER:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-password}
+      - DB_NAME=${DB_NAME:-urvoice_db}
+      - PYTHON_MODEL_URL=http://urvoice-models:5051
+    volumes:
+      - ./uploads:/app/public/uploads
+      - ./logs:/app/logs
+    ports:
+      - "3000:3000"
+    depends_on:
+      - urvoice-db
+      - urvoice-models
+    networks:
+      - urvoice-network
+    restart: unless-stopped
+
+  urvoice-models:
+    build:
+      context: ./python-models
+      dockerfile: Dockerfile
+    container_name: urvoice_models
+    environment:
+      - FLASK_ENV=production
+      - HF_HOME=/app/huggingface
+    volumes:
+      - ./uploads:/app/uploads
+      - ./huggingface:/app/huggingface
+      - ./logs:/app/logs
+    ports:
+      - "5051:5051"
+    networks:
+      - urvoice-network
+    restart: unless-stopped
+    # Uncomment below if using GPU & NVIDIA Container Toolkit
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+volumes:
+  urvoice_db_data:
+
+networks:
+  urvoice-network:
+    driver: bridge

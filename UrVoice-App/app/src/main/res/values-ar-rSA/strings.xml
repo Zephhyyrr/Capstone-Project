@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UrVoice</string>
+    <string name="onboarding_title_1">مرحبًا بك في\nUrVoice</string>
+    <string name="onboarding_description_1">نحن نقدم تحويل الكلام إلى نص باللغة الإنجليزية وتصحيح القواعد لمساعدتك على تحسين مهاراتك في التحدث أمام الجمهور باللغة الإنجليزية.</string>
+    <string name="onboarding_title_2">تطبيق لتحليل مهاراتك في التحدث</string>
+    <string name="onboarding_description_2">حلل مهاراتك في التحدث باستخدام تقنية الذكاء الاصطناعي التوليدي.</string>
+    <string name="onboarding_title_3">لنُعزز ثقتك في التحدث بالإنجليزية</string>
+    <string name="onboarding_description_3">ابدأ الآن وزد من ثقتك في التحدث باللغة الإنجليزية.</string>
+    <string name="button_start_now">ابدأ الآن</string>
+    <string name="button_back">رجوع</string>
+    <string name="button_next">التالي</string>
+    <string name="register_title">سجّل هنا</string>
+    <string name="register_description">أنشئ حسابًا وابدأ في تحليل مهاراتك في التحدث باللغة الإنجليزية.</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_description">مرحبًا بعودتك،\nيرجى تسجيل الدخول</string>
+    <string name="name_label">الاسم</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="register_button">تسجيل</string>
+    <string name="name_empty_error">لا يمكن ترك الاسم فارغًا</string>
+    <string name="email_empty_error">لا يمكن ترك البريد الإلكتروني فارغًا</string>
+    <string name="email_invalid_error">صيغة البريد الإلكتروني غير صحيحة</string>
+    <string name="password_empty_error">لا يمكن ترك كلمة المرور فارغة</string>
+    <string name="password_min_length_error">يجب أن تكون كلمة المرور 8 أحرف على الأقل</string>
+    <string name="name_min_length_error">يجب أن يكون الاسم 3 أحرف على الأقل</string>
+    <string name="register_link">ليس لديك حساب؟ سجّل هنا</string>
+    <string name="login_link">هل لديك حساب؟ سجّل الدخول هنا</string>
+    <string name="hide_password">إخفاء كلمة المرور</string>
+    <string name="show_password">عرض كلمة المرور</string>
+    <string name="token_save_failed">فشل في حفظ الرمز، لم يتم العثور عليه.</string>
+    <string name="onboarding_image_desc">صورة التهيئة</string>
+    <string name="article_image_desc">صورة المقال</string>
+    <string name="article_home_title">اقرأ مقالات باللغة الإنجليزية لتحسين مهاراتك</string>
+    <string name="update_history_title_home">السجل الأخير</string>
+    <string name="menu_article_title">مقال</string>
+    <string name="nodata_article_title">لا توجد بيانات للمقالات</string>
+    <string name="menu_profile_title">الملف الشخصي</string>
+    <string name="speech_to_text_title">تحويل الصوت إلى نص</string>
+    <string name="record_title">تسجيل</string>
+    <string name="back">رمز الإغلاق</string>
+    <string name="button_retry_record">إعادة التسجيل</string>
+    <string name="button_analyze_grammar">تحليل</string>
+    <string name="example_speech_to_text">هذه عينة لمحتوى بطاقة ميزة تحويل الصوت إلى نص.</string>
+    <string name="article_detail_title">تفاصيل المقال</string>
+    <string name="edit_profile_title">تعديل الملف الشخصي</string>
+    <string name="edit_name_title">الاسم</string>
+    <string name="enter_your_name">أدخل اسمك</string>
+    <string name="edit_email_title">البريد الإلكتروني</string>
+    <string name="user_email">أدخل بريدك الإلكتروني</string>
+    <string name="edit_password_title">كلمة المرور</string>
+    <string name="save">حفظ</string>
+    <string name="success">تم بنجاح</string>
+    <string name="save_profile_success">تم حفظ الملف الشخصي بنجاح!</string>
+    <string name="ok">موافق</string>
+    <string name="setting_profile_title">الإعدادات</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="sign_out_confirmation">تأكيد تسجيل الخروج</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="sign_out_message">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="delete_account_message">هل أنت متأكد أنك تريد حذف حسابك؟</string>
+    <string name="language">اللغة</string>
+    <string name="email_not_registered_title">المستخدم غير موجود</string>
+    <string name="email_not_registered_message">يرجى تسجيل بريدك الإلكتروني</string>
+    <string name="register_now">سجل الآن</string>
+    <string name="register_failed">فشل التسجيل</string>
+    <string name="account_already_exists_title">الحساب موجود بالفعل</string>
+    <string name="account_already_exists_message">تم تسجيل حسابك مسبقًا، يرجى تسجيل الدخول الآن!</string>
+    <string name="login_now">سجّل الدخول</string>
+    <string name="corrected_paragraph_title">الفقرة المصححة:</string>
+    <string name="no_correction_available">لا توجد تصحيحات</string>
+    <string name="grammar_analysis_title">تحليل القواعد:</string>
+    <string name="analisis_title">التحليل</string>
+    <string name="button_save_analyze">حفظ التحليل</string>
+    <string name="menu_history_title">السجل</string>
+    <string name="go_detail_description">اذهب للتفاصيل</string>
+    <string name="loading_audio">جارٍ التشغيل...</string>
+    <string name="pause_audio">⏸ إيقاف مؤقت</string>
+    <string name="failed_play_audio">فشل التشغيل</string>
+    <string name="play_audio">▶ تشغيل الصوت</string>
+    <string name="history_detail_title">تفاصيل السجل</string>
+    <string name="audio_recording">تسجيل الصوت</string>
+    <string name="original_paragraph_title">الفقرة الأصلية:</string>
+    <string name="no_content_available">لا يوجد محتوى</string>
+    <string name="nodata_history_title">لا توجد سجلات حتى الآن</string>
+    <string name="error">خطأ</string>
+    <string name="invalid_image_file">صورة غير صالحة</string>
+    <string name="edit_profile_image">تعديل صورة الملف الشخصي</string>
+    <string name="image_preview_description">معاينة الصورة</string>
+    <string name="preview_image">معاينة الصورة</string>
+    <string name="invalid_image_format">تنسيق غير صالح</string>
+    <string name="image_too_large">الصورة كبيرة جدًا</string>
+    <string name="image_processing_error">فشل في معالجة الصورة</string>
+    <string name="upload_failed">فشل الرفع</string>
+    <string name="uploading">جارٍ الرفع</string>
+    <string name="upload_success">تم الرفع بنجاح</string>
+    <string name="retry_upload">أعد الرفع</string>
+    <string name="upload_image_success">تم رفع الصورة بنجاح</string>
+    <string name="upload_image">رفع صورة</string>
+    <string name="no_original_text">لا يوجد نص أصلي</string>
+    <string name="no_corrected_text">لا توجد تصحيحات</string>
+    <string name="no_reason_text">لا يوجد سبب</string>
+    <string name="original">النص الأصلي:</string>
+    <string name="corrected">النص المصحح:</string>
+    <string name="reason">السبب:</string>
+    <string name="rekaman_audio">تسجيل الصوت:</string>
+    <string name="article_arrow_desc">رمز المقال</string>
+    <string name="no_image_available">لا توجد صورة</string>
+    <string name="profile_image_desc">صورة الملف الشخصي</string>
+    <string name="saving_progress">جارٍ الحفظ...</string>
+    <string name="saved">تم الحفظ!</string>
+    <string name="failed_save">فشل في الحفظ</string>
+    <string name="error_title">حدث خطأ</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="no_title">لا عنوان</string>
+    <string name="no_content">الوصف غير متاح</string>
+    <string name="error_history_title">حدث خطأ</string>
+    <string name="profile_preview_image">معاينة الصورة</string>
+    <string name="unknown_name">مستخدم غير معروف</string>
+    <string name="no_email_provided">لا يوجد بريد إلكتروني</string>
+    <string name="navigate_forward">سهم</string>
+    <string name="audio_permission">مطلوب إذن الميكروفون للتسجيل. اضغط على أيقونة الميكروفون للسماح.</string>
+    <string name="recording_in_progress">🔴 جاري التسجيل... (اضغط للإيقاف)</string>
+    <string name="loading_transcription">⏳ جاري تحويل الصوت إلى نص...</string>
+    <string name="record_instructions">اضغط على زر الميكروفون لبدء التسجيل</string>
+    <string name="record_success_title">تم التسجيل بنجاح!</string>
+    <string name="transcription_confirmation_text">هل ترغب في تحويل هذا إلى نص؟</string>
+    <string name="retry_record_title">إعادة التسجيل</string>
+    <string name="sign_title">لنُعزز ثقتك في التحدث بالإنجليزية</string>
+    <string name="sign_desc">انضم الآن لتدريب مهارات التحدث واجعل من الإنجليزية قوتك!</string>
+    <string name="link_article">رابط المقال</string>
+</resources>
